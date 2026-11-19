@@ -5,12 +5,13 @@ Ready-made skills that teach AI agents (OpenClaw, Claude Code, Codex, Cursor) to
 | Skill | What it does | Status |
 |---|---|---|
 | [india-income-tax](india-income-tax/) | New vs old regime tax, HRA, 80C, NPS, monthly TDS, break-even deductions (Tax Year 2026-27, Income-tax Act 2025) | ✅ Live |
-| india-gst | GST invoices, reverse GST, GSTIN validation | 🔜 Coming soon |
+| [india-gst](india-gst/) | GSTIN validation, GST calc (CGST/SGST/UTGST/IGST), Rule 46 invoices as PDF-ready HTML, compliance checks, return due dates (GST 2.0, Nov 2026) | ✅ Live |
 | india-mutual-funds | NAV lookup, portfolio value and returns | 🔜 Coming soon |
 
 ## Install a skill
 ```bash
 openclaw skills install india-income-tax        # OpenClaw
+openclaw skills install india-gst
 ```
 Claude Code: copy the skill folder into `~/.claude/skills/`.
 
